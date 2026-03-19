@@ -52,7 +52,426 @@ const bNodes = [
             "confidence": 0.95,
         }
     },
-    
+    {
+    "id": "1",
+    "position": { "x": 0, "y": -250 },
+    "data": {
+        "info": "Day 1: does schoolwork seriously and plans the week.",
+        "importanceScore": 0.78,
+        "choiceScore": 0.88,
+        "confidence": 0.92
+    }
+},
+{
+    "id": "2",
+    "position": { "x": 120, "y": -250 },
+    "data": {
+        "info": "Day 1: practices a creative skill for 2 hours.",
+        "importanceScore": 0.67,
+        "choiceScore": 0.80,
+        "confidence": 0.87
+    }
+},
+{
+    "id": "3",
+    "position": { "x": 220, "y": -250 },
+    "data": {
+        "info": "Day 1: looks for part-time work or paid side work.",
+        "importanceScore": 0.64,
+        "choiceScore": 0.74,
+        "confidence": 0.90
+    }
+},
+{
+    "id": "4",
+    "position": { "x": -120, "y": -250 },
+    "data": {
+        "info": "Day 1: works out and talks to friends instead of isolating.",
+        "importanceScore": 0.60,
+        "choiceScore": 0.69,
+        "confidence": 0.89
+    }
+},
+{
+    "id": "5",
+    "position": { "x": -220, "y": -250 },
+    "data": {
+        "info": "Day 1: drifts into gaming and scrolling all evening.",
+        "importanceScore": 0.46,
+        "choiceScore": 0.39,
+        "confidence": 0.94
+    }
+},
+{
+    "id": "6",
+    "position": { "x": -340, "y": -250 },
+    "data": {
+        "info": "Day 1: chases fun only, stays up late, ignores responsibilities.",
+        "importanceScore": 0.58,
+        "choiceScore": 0.24,
+        "confidence": 0.92
+    }
+},
+{
+    "id": "7",
+    "position": { "x": -460, "y": -250 },
+    "data": {
+        "info": "Day 1: follows a shady friend toward easy money.",
+        "importanceScore": 0.82,
+        "choiceScore": 0.08,
+        "confidence": 0.86
+    }
+},
+{
+    "id": "8",
+    "position": { "x": 0, "y": -500 },
+    "data": {
+        "info": "Day 2: repeats disciplined work and finishes overdue tasks.",
+        "importanceScore": 0.80,
+        "choiceScore": 0.90,
+        "confidence": 0.93
+    }
+},
+{
+    "id": "9",
+    "position": { "x": 160, "y": -500 },
+    "data": {
+        "info": "Day 2: creates, edits, and posts something publicly.",
+        "importanceScore": 0.70,
+        "choiceScore": 0.82,
+        "confidence": 0.88
+    }
+},
+{
+    "id": "10",
+    "position": { "x": 280, "y": -500 },
+    "data": {
+        "info": "Day 2: applies for jobs and learns a practical money skill.",
+        "importanceScore": 0.66,
+        "choiceScore": 0.76,
+        "confidence": 0.90
+    }
+},
+{
+    "id": "11",
+    "position": { "x": -160, "y": -500 },
+    "data": {
+        "info": "Day 2: invests in health, hygiene, and social confidence.",
+        "importanceScore": 0.61,
+        "choiceScore": 0.71,
+        "confidence": 0.90
+    }
+},
+{
+    "id": "12",
+    "position": { "x": -280, "y": -500 },
+    "data": {
+        "info": "Day 2: does the minimum and lets the day disappear.",
+        "importanceScore": 0.44,
+        "choiceScore": 0.42,
+        "confidence": 0.95
+    }
+},
+{
+    "id": "13",
+    "position": { "x": -420, "y": -500 },
+    "data": {
+        "info": "Day 2: skips obligations for stimulation and approval.",
+        "importanceScore": 0.56,
+        "choiceScore": 0.22,
+        "confidence": 0.92
+    }
+},
+{
+    "id": "14",
+    "position": { "x": -560, "y": -500 },
+    "data": {
+        "info": "Day 2: lies, hustles, or steals to get quick reward.",
+        "importanceScore": 0.86,
+        "choiceScore": 0.06,
+        "confidence": 0.88
+    }
+},
+{
+    "id": "15",
+    "position": { "x": 0, "y": -750 },
+    "data": {
+        "info": "Day 3: chooses long-term progress over comfort again.",
+        "importanceScore": 0.83,
+        "choiceScore": 0.91,
+        "confidence": 0.93
+    }
+},
+{
+    "id": "16",
+    "position": { "x": 200, "y": -750 },
+    "data": {
+        "info": "Day 3: builds creator portfolio instead of just consuming media.",
+        "importanceScore": 0.72,
+        "choiceScore": 0.83,
+        "confidence": 0.89
+    }
+},
+{
+    "id": "17",
+    "position": { "x": 340, "y": -750 },
+    "data": {
+        "info": "Day 3: works a shift or takes a useful paid task.",
+        "importanceScore": 0.68,
+        "choiceScore": 0.77,
+        "confidence": 0.91
+    }
+},
+{
+    "id": "18",
+    "position": { "x": -200, "y": -750 },
+    "data": {
+        "info": "Day 3: spends time with decent friends and stays active.",
+        "importanceScore": 0.63,
+        "choiceScore": 0.72,
+        "confidence": 0.91
+    }
+},
+{
+    "id": "19",
+    "position": { "x": -340, "y": -750 },
+    "data": {
+        "info": "Day 3: procrastinates and tells himself he will start tomorrow.",
+        "importanceScore": 0.48,
+        "choiceScore": 0.43,
+        "confidence": 0.95
+    }
+},
+{
+    "id": "20",
+    "position": { "x": -500, "y": -750 },
+    "data": {
+        "info": "Day 3: chases impulse pleasure and loses sleep again.",
+        "importanceScore": 0.60,
+        "choiceScore": 0.20,
+        "confidence": 0.93
+    }
+},
+{
+    "id": "21",
+    "position": { "x": -650, "y": -750 },
+    "data": {
+        "info": "Day 3: escalates risky behavior for cash, thrills, or status.",
+        "importanceScore": 0.88,
+        "choiceScore": 0.05,
+        "confidence": 0.88
+    }
+},
+{
+    "id": "22",
+    "position": { "x": 0, "y": -1000 },
+    "data": {
+        "info": "Day 4: keeps structure, finishes work before entertainment.",
+        "importanceScore": 0.84,
+        "choiceScore": 0.91,
+        "confidence": 0.94
+    }
+},
+{
+    "id": "23",
+    "position": { "x": 240, "y": -1000 },
+    "data": {
+        "info": "Day 4: studies audience, improves creative output, posts again.",
+        "importanceScore": 0.73,
+        "choiceScore": 0.84,
+        "confidence": 0.88
+    }
+},
+{
+    "id": "24",
+    "position": { "x": 380, "y": -1000 },
+    "data": {
+        "info": "Day 4: saves money and builds practical independence.",
+        "importanceScore": 0.70,
+        "choiceScore": 0.78,
+        "confidence": 0.91
+    }
+},
+{
+    "id": "25",
+    "position": { "x": -240, "y": -1000 },
+    "data": {
+        "info": "Day 4: keeps up fitness and sends honest messages to people.",
+        "importanceScore": 0.62,
+        "choiceScore": 0.70,
+        "confidence": 0.90
+    }
+},
+{
+    "id": "26",
+    "position": { "x": -380, "y": -1000 },
+    "data": {
+        "info": "Day 4: stays comfortable, avoids challenge, nothing collapses yet.",
+        "importanceScore": 0.41,
+        "choiceScore": 0.41,
+        "confidence": 0.95
+    }
+},
+{
+    "id": "27",
+    "position": { "x": -540, "y": -1000 },
+    "data": {
+        "info": "Day 4: skips important work for fun and social validation.",
+        "importanceScore": 0.61,
+        "choiceScore": 0.19,
+        "confidence": 0.93
+    }
+},
+{
+    "id": "28",
+    "position": { "x": -700, "y": -1000 },
+    "data": {
+        "info": "Day 4: normalizes dishonest or criminal behavior.",
+        "importanceScore": 0.89,
+        "choiceScore": 0.04,
+        "confidence": 0.89
+    }
+},
+{
+    "id": "29",
+    "position": { "x": 0, "y": -1250 },
+    "data": {
+        "info": "Day 5: compounds progress; routines start feeling normal.",
+        "importanceScore": 0.86,
+        "choiceScore": 0.92,
+        "confidence": 0.94
+    }
+},
+{
+    "id": "30",
+    "position": { "x": 280, "y": -1250 },
+    "data": {
+        "info": "Day 5: creates consistently even with low external reward.",
+        "importanceScore": 0.74,
+        "choiceScore": 0.84,
+        "confidence": 0.89
+    }
+},
+{
+    "id": "31",
+    "position": { "x": 420, "y": -1250 },
+    "data": {
+        "info": "Day 5: works, saves, and learns to delay gratification.",
+        "importanceScore": 0.71,
+        "choiceScore": 0.79,
+        "confidence": 0.91
+    }
+},
+{
+    "id": "32",
+    "position": { "x": -280, "y": -1250 },
+    "data": {
+        "info": "Day 5: becomes more attractive through health and reliability.",
+        "importanceScore": 0.63,
+        "choiceScore": 0.72,
+        "confidence": 0.90
+    }
+},
+{
+    "id": "33",
+    "position": { "x": -420, "y": -1250 },
+    "data": {
+        "info": "Day 5: floats through the day and protects comfort above growth.",
+        "importanceScore": 0.43,
+        "choiceScore": 0.38,
+        "confidence": 0.95
+    }
+},
+{
+    "id": "34",
+    "position": { "x": -580, "y": -1250 },
+    "data": {
+        "info": "Day 5: pleasure becomes habitual and self-control weakens.",
+        "importanceScore": 0.66,
+        "choiceScore": 0.17,
+        "confidence": 0.92
+    }
+},
+{
+    "id": "35",
+    "position": { "x": -750, "y": -1250 },
+    "data": {
+        "info": "Day 5: commits to destructive peers over normal structure.",
+        "importanceScore": 0.90,
+        "choiceScore": 0.04,
+        "confidence": 0.89
+    }
+},
+{
+    "id": "36",
+    "position": { "x": 0, "y": -1500 },
+    "data": {
+        "info": "Day 6: handles boredom and keeps discipline anyway.",
+        "importanceScore": 0.87,
+        "choiceScore": 0.93,
+        "confidence": 0.94
+    }
+},
+{
+    "id": "37",
+    "position": { "x": 320, "y": -1500 },
+    "data": {
+        "info": "Day 6: improves creative quality, not just output volume.",
+        "importanceScore": 0.75,
+        "choiceScore": 0.85,
+        "confidence": 0.89
+    }
+},
+{
+    "id": "38",
+    "position": { "x": 460, "y": -1500 },
+    "data": {
+        "info": "Day 6: gets more dependable at work or money-making.",
+        "importanceScore": 0.72,
+        "choiceScore": 0.80,
+        "confidence": 0.91
+    }
+},
+{
+    "id": "39",
+    "position": { "x": -320, "y": -1500 },
+    "data": {
+        "info": "Day 6: invests in friendships and possible romance carefully.",
+        "importanceScore": 0.66,
+        "choiceScore": 0.74,
+        "confidence": 0.89
+    }
+},
+{
+    "id": "40",
+    "position": { "x": -460, "y": -1500 },
+    "data": {
+        "info": "Day 6: drifts because nothing feels urgent enough to change.",
+        "importanceScore": 0.47,
+        "choiceScore": 0.36,
+        "confidence": 0.95
+    }
+},
+{
+    "id": "41",
+    "position": { "x": -620, "y": -1500 },
+    "data": {
+        "info": "Day 6: more partying, more avoidance, more excuses.",
+        "importanceScore": 0.68,
+        "choiceScore": 0.15,
+        "confidence": 0.92
+    }
+},
+{
+    "id": "42",
+    "position": { "x": -800, "y": -1500 },
+    "data": {
+        "info": "Day 6: uses manipulation or crime as a normal tactic.",
+        "importanceScore": 0.91,
+        "choiceScore": 0.03,
+        "confidence": 0.90
+    }
+},
 
 ]
 const dfEdges = [
